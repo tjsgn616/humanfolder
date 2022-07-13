@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
+    <style>
+        /* tag, css,  */
+        #Lorem2{
+            color: pink;
+        }
+        #Lorem3{
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="http://www.naver.com">네이버</a></h1>
+
+    <!-- 밑으로 갈수록 유지보수가 용이한 개발 방법 -->
+    <!-- 밑으로 갈수록 우선순위가 낮아진다 / 인라인 > 내부 > 외부 -->
+
+    <!-- CSS를 HTML 넣는 방법 3개 -->
+    <!-- 인 라인 속성으로 변경 -->
+    <div id="Lorem1" class="text" style="color: red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit veritatis delectus deserunt dolorum vitae expedita mollitia, ex quo laudantium dolor corporis! Tempora molestias accusantium voluptates voluptatibus nostrum iste laborum animi!</div>
+
+    <!-- 내부 스타일 tag로 변경 -->
+    <div id="Lorem2" class="text">
+    <!-- style = "color: pink;" 하면되긴하는데,, -->
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit veritatis delectus deserunt dolorum vitae expedita mollitia, ex quo laudantium dolor corporis! Tempora molestias accusantium voluptates voluptatibus nostrum iste laborum animi!</div>
+
+    <!-- 외부 파일로 변경 -->
+    <div id="Lorem3" class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit veritatis delectus deserunt dolorum vitae expedita mollitia, ex quo laudantium dolor corporis! Tempora molestias accusantium voluptates voluptatibus nostrum iste laborum animi!</div>
+
+    <button id="btn1" name="btn1" class="mybtn" onclick="changeColor()">하나씩 바꾸기</button>
+    <button id="btn10" name="btn10" class="mybtn" onclick="changeManyColor()">색 전체 바꾸기</button>
+    <button id="btn2" name="btn2" class="mybtn">크기 바꾸기</button>
+    <button id="btn3" name="btn3" class="mybtn">동적 dom 추가</button>
+    <br>
+    <img id="lorem_img" src="https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png" alt="로렘 이미지입니다.">
+    
+
+</body>
+</html>

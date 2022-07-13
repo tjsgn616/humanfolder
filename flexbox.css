@@ -1,0 +1,49 @@
+*{
+    /* padding 과 margin 제거 */
+    padding: 0px;
+    margin: 0px;
+}
+.item{
+    /* 공통 부분 */
+    width: 50px;
+    height: 50px;
+}
+.item1{
+    background-color: #f44336;
+    
+}
+.item2{
+    background-color: #ff9800;
+    /* default 값 static*/
+    position: relative;
+    left: 50px;
+   
+}
+.item3{
+    background-color: #ffeb3b;
+    position: relative;
+    left: 100px;
+}
+.item4{
+    background-color: #c0ca33;
+}
+.item5{
+    background-color: #43a047;
+}
+.item6{
+    background-color: #00acc1;
+    position: relative;
+    top: 50px;
+}
+.item7{
+    background-color: #3949ab;
+}
+.item8{
+    background-color: #5e35b1;
+}
+.item9{
+    background-color: #8e24aa;
+}
+.item10{
+    background-color: #d81b60;
+}

@@ -1,0 +1,23 @@
+#Lorem3{
+    color: teal;
+}
+#Lorem1{
+    color: black ; /* !important */
+}
+/* #lorem_img{
+    padding-top: 10px;
+    width: 100%;
+} */
+span{
+    display: block;
+}
+/* img{
+    display: block;
+    margin: auto;
+} */
+
+.imgDiv{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
