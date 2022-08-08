@@ -1,0 +1,24 @@
+
+## bios진입 = f2 또는 del
+
+### 멀티모니터 설정 :   
+    - 바이오스 - Chipset - System Agenet Configuration - IGD Multi Monitor - Enable로 변경
+    - MSI = Advanced - Internal Graphics Configuration - IGD Multi Monitor - Enable로 변경
+    - 바이오스 - advanced graphics - igb multimonitor - Enable로변경
+    
+프로세서 Intel Core i5-9400f 2.9GHz
+그래픽카드 GeForce GTX 1660
+
+
+### 윈도우 단축키 : win + x
+화면 넘어간거 이동 : ALT SPACE   M   방향키로 이동
+
+
+#### 메인보드 확인
+win + r (실행) dxdiag
+Micro-Star International Co.Ltd    = MSI
+Intel Core i5 9400F 2.90Hz
+32 램
+NVIDIA GeForce GTX 1660
+
+
