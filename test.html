@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>신고 목록</title>
+    <style>
+        .report {
+            text-align: center;
+        }
+        #reason1 { text-align: left; }
+        #reason2 { margin:-2px 3px 0 5px; text-align: left; }
+        #reason3 { margin:-2px 3px 0 5px; text-align: left; }
+        #reason4 { margin:-2px 3px 0 5px; text-align: left; }
+    </style>
 </head>
-<body>
-    <nav>
-        <ul>
-            <a href="">여기로가기</a>
-            <a href="">저기로가기</a>
-            <a href="">거기로가기</a>
-        </ul>
-    </nav>
+<body onload="window.resizeTo(400,200)">
+    <div class="report">   
+        <h3>신 고</h3> 
+        <p>신고 사유</p>
+        <label for="reason1"><input type="radio" name="reason" id="reason1" value="관련 없는 내용">관련 없는 내용</label><br>
+        <label for="reason2"><input type="radio" name="reason" id="reason2" value="광고성">광고성</label><br>
+        <label for="reason3"><input type="radio" name="reason" id="reason3" value="욕설/비난">욕설/비난</label><br>
+        <p><label for="reason4"><input type="radio" name="reason" id="reason4" value="기타">기타</label></p>
+    </div>
+    <label for=""><input type="button" value="Cancel"></label>
 </body>
 </html>
